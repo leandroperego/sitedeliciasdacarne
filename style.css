@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@font-face {
+    font-family: Romelio;
+    src: url(font/Romelio.otf);
+}
+
+@font-face {
+    font-family: Built Titling;
+    src: url(font/built.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --color60: #fff6f5;
+    --color30: #d1d1d1;
+    --color10: #500600;
+
+    --font60: 'Inter', sans-serif;
+    --font30: 'Fjalla One', sans-serif;
+    --font10: 'Built Titling';
+}
+
+.titulos{
+    font-size: 2.5rem;
+    color: var(--color60);
+    font-family: var(--font10);
+}
+
+.subtitulos{
+    font-size: 1.5rem;
+    color: var(--color10);
+    font-family: var(--font30);
+}
+
+#menu:hover{
+    font-size: 2rem;
+}
+
+#hero .titulos{
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+#hero .subtitulos{
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: var(--color30);
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--color60);
+    font-family: var(--font60);
+}
+
+header{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+}
+
+header>img{
+    height: 100%;
+}
+
+#hero{
+    width: 100vw;
+    height: 50rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagens/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    width: 60%;
+    text-align: center;
+}
+
+h3.subtitulos{
+    font-family: var(--font30);
+    font-size: 2.5rem;
+    color: var(--color10);
+}
+
+img#premium{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+#secaoPremium{
+    margin-top: 4rem;
+}
+
+#secaoPremium p, #secaoEspecialidades ul{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+#secaoPremium #stars{
+    margin-top: 3rem;
+    text-align: center;
+    color: goldenrod;
+    font-size: 3rem;
+}
+
+#especialidadeFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    background-color: var(--color10);
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+#secaoEspecialidades ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+#secaoEspecialidades ul li{
+    margin-bottom: 4px;
+    color: var(--color30);
+}
+
+img#imgOpcoes{
+    width: 12rem;
+    height: 14rem;
+    border-radius: 10px 0 0 10px;
+}
+
+#divButton{
+    text-align: center;
+}
+.button{
+    padding: 0.6rem 0.8rem;
+    margin-top: 2.5rem;
+    border-color: var(--color10);
+    background-color: var(--color60);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: var(--color10);
+    color: var(--color60);
+    cursor: pointer;
+}
+
+.button:active{
+    border-width: 4px;
+}
+
+#sectionFooter{
+    margin-top: 4rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#sectionFooter>p{
+    font-family: var(--font30);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+input{
+    border-radius: 5px;
+    border-color: var(--color10);
+    padding: 5px 8px;
+    font-family: var(--font60);
+    width: 25rem;
+}
+
+#btnEnviar:hover{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#btnEnviar:active{
+    color: var(--color30);
+}
+
+address{
+    height: 15rem;
+    background-color: var(--color10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0px 2rem;
+    color: var(--color30);
+    font-size: 1rem;
+}
+
+address div{
+    width: 50%;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+address img{
+    width: 50%;
+}
+
+#endereco{
+    min-width: 18rem;
+}
+
+.branco{
+    color: white;
+}
