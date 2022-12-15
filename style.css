@@ -182,10 +182,11 @@ img#imgOpcoes{
 }
 .button{
     padding: 0.6rem 0.8rem;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     border-color: var(--color10);
     background-color: var(--color60);
     border-radius: 10px;
+    color: var(--color10);
 }
 
 .button:hover{
@@ -195,7 +196,7 @@ img#imgOpcoes{
 }
 
 .button:active{
-    border-width: 4px;
+    font-size: 1.2rem;
 }
 
 #sectionFooter{
@@ -229,7 +230,7 @@ input{
 }
 
 #btnEnviar:active{
-    color: var(--color30);
+    font-size: 1.8rem;
 }
 
 address{
@@ -394,7 +395,6 @@ address img{
     img#imgOpcoes{
         width: 90%;
         height: 90%;
-        border-radius: 50px;
     }
 
     .button{
@@ -402,6 +402,12 @@ address img{
         width: 50%;
         height: 50%;
         font-size: 2rem;
+    }
+
+    .button:active{
+        font-size: 1.9rem;
+        width: calc(50% - 5%);
+        height: calc(50% - 5%);
     }
 
     footer{
@@ -438,6 +444,10 @@ address img{
     #btnEnviar:hover{
         font-size: 3rem;
         text-shadow: 5px 4px 7px rgba(0,0,0,0.61);
+    }
+
+    #btnEnviar:active{
+        font-size: 2.8rem;
     }
 
     address{
