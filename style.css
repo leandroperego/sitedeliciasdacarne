@@ -28,6 +28,10 @@
     --font10: 'Built Titling';
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .titulos{
     font-size: 2.5rem;
     color: var(--color60);
@@ -40,8 +44,14 @@
     font-family: var(--font30);
 }
 
+#menu{
+    font-size: 3rem;
+    position: fixed;
+    right: 1.9rem;
+}
+
 #menu:hover{
-    font-size: 2rem;
+    cursor: pointer;
 }
 
 #hero .titulos{
@@ -64,6 +74,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px 2rem;
+    background-color: var(--color60);
 }
 
 header>img{
@@ -157,7 +168,6 @@ img#premium{
 }
 
 img#imgOpcoes{
-    width: 100%;
     height: 14rem;
     border-radius: 10px 0 0 10px;
 }
@@ -246,3 +256,15 @@ address img{
 .branco{
     color: white;
 }
+
+/* a>i{
+    color: #ccc;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 4rem;
+    right: 1.9rem;
+}
+
+#voltarAoTopo{
+    font-size: 3rem;
+} */
