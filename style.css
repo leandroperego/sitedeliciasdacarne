@@ -46,11 +46,8 @@ html{
 
 #menu{
     font-size: 3rem;
-<<<<<<< HEAD
     position: fixed;
     right: 1.9rem;
-=======
->>>>>>> 6679c4120e5e5bedf6e62deb6a16af9313fda69c
 }
 
 #menu:hover{
@@ -78,11 +75,6 @@ header{
     align-items: center;
     padding: 0px 2rem;
     background-color: var(--color60);
-<<<<<<< HEAD
-=======
-    position: sticky;
-    top: 0;
->>>>>>> 6679c4120e5e5bedf6e62deb6a16af9313fda69c
 }
 
 header>img{
@@ -264,28 +256,3 @@ address img{
 .branco{
     color: white;
 }
-
-<<<<<<< HEAD
-/* a>i{
-=======
-a>i{
->>>>>>> 6679c4120e5e5bedf6e62deb6a16af9313fda69c
-    color: #ccc;
-    font-size: 4rem;
-    position: fixed;
-    bottom: 4rem;
-<<<<<<< HEAD
-    right: 1.9rem;
-}
-
-#voltarAoTopo{
-    font-size: 3rem;
-} */
-=======
-    right: 4rem;
-}
-
-#voltarAoTopo{
-    font-size: 4rem;
-}
->>>>>>> 6679c4120e5e5bedf6e62deb6a16af9313fda69c
