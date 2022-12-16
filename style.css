@@ -263,6 +263,58 @@ address img{
     color: white;
 }
 
+/* menu mobile */
+#menuMobile{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200,200,200,0.7);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#div_listaOpcoes{
+    background-color: var(--color30);
+    width: 80%;
+    height: 100%;
+}
+
+#div_listaOpcoes i{
+    padding: 5px;
+    font-size:2.2rem;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover{
+    color: var(--color10);
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+    font-size: 2.1rem
+}
+
+#menuMobile nav{
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+
+#menuMobile nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#menuMobile ul li{
+    border-bottom: 1px solid var(--color10);
+    padding: 5px;
+}
+
 @media (min-width: 1024px){
     header#headerMobile{
         display: none;
@@ -294,7 +346,7 @@ address img{
         margin-right: 3rem 
     }
 
-    nav a:link,
+    /* nav a:link,
     nav a:visited,
     nav a:hover{
         color: var(--color10);
@@ -304,7 +356,7 @@ address img{
     nav a:hover{
         font-weight: bold;
         font-size: 2.1rem
-    }
+    } */
 
     #topo{
         width: 100vw;
