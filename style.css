@@ -315,6 +315,11 @@ nav a:hover{
     padding: 5px;
 }
 
+#areaClicavelVazio{
+    width: 20%;
+    height: 100%;
+}
+
 @media (min-width: 1024px){
     header#headerMobile{
         display: none;
