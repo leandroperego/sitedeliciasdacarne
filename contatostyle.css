@@ -1,0 +1,98 @@
+:root{
+    --color60: #fff6f5;
+    --color30: #d1d1d1;
+    --color10: #500600;
+
+    --font60: 'Inter', sans-serif;
+    --font30: 'Fjalla One', sans-serif;
+    --font10: 'Built Titling';
+}
+
+.headerTelaContato{
+    background-color: var(--color10);
+    color: var(--color60);
+}
+
+.headerTelaContato nav ul li{
+    color: var(--color60);
+}
+
+body.janelaContato #menu{
+    background-color: var(--color10);
+}
+
+body.janelaContato footer{
+    height: auto;
+}
+
+body.janelaContato main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+body.janelaContato main h3{
+    text-align: center;
+}
+
+body.janelaContato .box_informativo{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#div_areaContato{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+#div_areaContato div{
+    max-width: 300px;
+}
+
+/* INPUTS */
+body.janelaContato form label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+body.janelaContato form textarea,
+body.janelaContato form input{
+    width: 100%;
+    border: 1px solid var(--color10);
+    resize: none;
+    padding: 8px;
+}
+
+body.janelaContato form textarea{
+    height: 15rem;
+}
+
+body.janelaContato #div_button{
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+body.janelaContato form #btnEnviar{
+    width: 40%;
+}
+
+#divInput{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px){
+    body.janelaContato main h4{
+        font-size: 2.5rem;
+    }
+
+    #tituloContato{
+        font-size: 4rem;
+    }
+}

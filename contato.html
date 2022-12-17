@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CONTATO | Delícias da Carne</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="janelaContato">
+
+  <header id="headerMobile" class="janelaContato headerTelaContato">
+    <img src="imagens/logobranco.png" alt="Logo Delicias da Carne">
+    <i class="fa fa-bars" aria-hidden="true" id="menu"></i>
+  </header>
+  <header id="headerDesktop" class="janelaContato headerTelaContato">
+    <a href="index.html"><img src="imagens/logobranco.png" alt="Logo Delicias da Carne"></a>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="index.html"><li>Quem Somos</li></a>
+        <a href="index.html"><li>Carnes</li></a>
+        <a href="index.html"><li>Carnes Exóticas</li></a>
+        <a href="index.html"><li>Contato</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="janelaContato">
+    <h3 class="subtitulos" id="tituloContato">CONTATO</h2>
+    <div id="div_areaContato">
+        <div id="div_faleconosco" class="box_informativo">
+            <h3 class="subtitulos">FALE CONOSCO</h3>
+            <p id="p_faleConosco">Preencha o formulário ou envie sua mensagem diretamente para o email: <a href="mailto:emaildeliciasdacarne@hotmail.com">deliciasdacarne@gmail.com</a></p>
+            <form action="#">
+                <div class="divInput">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="divInput">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="divInput">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                </div>
+                <div id="div_button">
+                    <input type="submit" id="btnEnviar" class="button">
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <section class="box_informativo">
+                <h4 class="subtitulos">Funcionamento</h4>
+                <p>Segunda à Sexta das 07:00 às 19:00</p>
+                <p>Sábado das 07:00 às 15:00</p>
+            </section>
+            <section class="box_informativo">
+                <h4 class="subtitulos">Contatos</h4>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> (21) 2527-7125</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> (21) 9 9908-4435</p>
+                <p><i class="fa fa-whatsapp" aria-hidden="true"></i> (21) 9 9721-3041</p>
+            </section>
+        </div>
+    </div>
+  </main>
+
+  <footer id="footer_outrasPaginas">
+    <address>
+      <div id="blocoLogoFooter">
+        <a href="#topo"><img src="imagens/logobranco.png" alt="Logo"></a>
+      </div>
+      <div id="blocoEndereco">
+        <h4 class="branco">DELÍCIAS DA CARNE</h4>
+        <p id="endereco" class="branco">Rua Voluntários da Pátria, 340 Loja F</p>
+        <p class="branco">Botafogo - Rio de Janeiro/RJ</p>
+        <p ><i class="fa fa-phone" aria-hidden="true"></i>
+        (21) 2527-7125</p>
+        <p>Seg a Sexta das 7h às 19h</p>
+        <p>Sab das 7h às 15h</p>
+      </div>
+    </address>
+  </footer>
+  
+  <!-- MENU MOBILE -->
+  <section id="menuMobile">
+    <div id="div_listaOpcoes">
+      <header id="header_menuMobile">
+        <h3>MENU</h3>
+        <i class="fa fa-times" aria-hidden="true" id="close_menuMobile"></i>
+      </header>
+      
+      <footer></footer>
+    </div>
+    <div id="areaClicavelVazio"></div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
